@@ -237,6 +237,10 @@ max-height: 120px;
     margin-left: 25px;
 }
 
+.box1 .button h5{
+    padding-left: 25px;
+}
+
 .button h5{
 
     background-color: #FF8C42;
