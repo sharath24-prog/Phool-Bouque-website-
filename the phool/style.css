@@ -393,10 +393,9 @@ max-height: 120px;
 
 .nxt img{
     max-height: 250px;
-    max-width: 150px;
-    padding-bottom: 50px;
-    margin-top: 5px;
-    padding-left: 20px;
+    max-width: 200px;
+    margin-top: 10px;
+    padding-left: 40px;
 }
 
 .nxt_1 h1{
@@ -443,5 +442,183 @@ max-height: 120px;
     font-weight: 100;
     padding-left: 35px;
 }
+
+
+.new_arrival{
+    background-color: #F8D7E3;
+}
+
+.travis h1{
+  
+    
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 20px;
+    color: #2A0F3C;
+
+}
+
+.travis p{
+    padding-left: 500px;
+    color: #4B2E5D;
+
+}
+
+.new_1{
+    background-color: #FFF1E6;
+}
+.new img{
+    max-height: 120px;
+    width: 120px;
+    margin: 20px 15px;
+}
+.new{
+
+   display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+      max-width: 700px; 
+   margin: auto; 
+   padding: 20px;  
+    justify-content:center;
+    min-height: 300px;
+
+    gap: 15px;
+}
+.new_1 h1{
+
+    font-size: medium;
+    color: black;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.new_1 p{
+    font-size: x-small;
+    color: #FF8C42;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.new_1 h2{
+    color: #FF8C42;
+    text-align: center;
+    font-size: medium;
+}
+.new_1 .pre{
+    background-color: #FF8C42;
+    width: 90px;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.pre p{
+
+    color: #ffff;
+    
+}
+
+.feedback{
+    background-color:#FFF1E6;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding:80px 0px;
+}
+
+
+.flower img{
+    height: 300px;
+    width:300px;
+}
+
+.feedback .text{
+
+    
+    border: 2px solid #FFF1E6;
+    height: 170px;
+    padding: 0px 20px;
+    padding-top: 20px;
+    box-shadow: 0px 4px 10px #fb8fb7;
+
+}
+
+.text h1{
+
+    font-size:x-large;
+    margin-bottom: 10px;
+    
+}
+
+.text p{
+    color: #FF8C42;
+}
+
+
+.quality{
+    background: url(./012f0db61dcaf459344d8d1e64436028\ \(1\).jpg);
+    height: 500px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.present{
+
+    text-align: center;
+    padding:100px 0px ;
+    
+    
+}
+
+
+.present p{
+
+    margin-bottom: 40px;
+    color:#0F172A;
+
+}
+
+.present h1{
+    font-size: 60px;
+    color:#0F172A;
+    margin-bottom: 40px;
+}
+
+.present h5{
+    color:#0F172A;
+    
+}
+
+.view_collection p{
+    margin-top: 40px;
+color: #ffff;
+
+}
+
+.view_collection {
+   
+   margin: 0px auto;
+   background-color: #FF8C42;
+   width: 10%;
+   border-radius: 20px;
+   
+   cursor: pointer;
+
+
+
+   
+
+
+
+   
+}
+
+
+
+
 
 
