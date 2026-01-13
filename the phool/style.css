@@ -237,12 +237,6 @@ max-height: 120px;
     margin-left: 25px;
 }
 
-.box1 h5{
-    padding-left: 25px;
-    
-
-}
-
 .button h5{
 
     background-color: #FF8C42;
@@ -252,6 +246,7 @@ max-height: 120px;
     border-radius: 20px;
     color: white;
     cursor: pointer;
+    padding:5px 0px;
 }
 
 
@@ -516,6 +511,7 @@ max-height: 120px;
 .pre p{
 
     color: #ffff;
+    padding:10px 0px
     
 }
 
