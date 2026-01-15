@@ -125,6 +125,7 @@ header{
     margin-top: 8px;
     padding-left: 5px;
     color: #4B2E5D;
+    /* min-width:100% ; */
 }
 
 
@@ -659,15 +660,368 @@ padding-bottom: 10px;
   padding: 0 25px;
 }
 
-.left_box,
-.right_box{
-  width: 50%;
+
+
+
+.brand img{
+    height: 70px;
+    width: 70px;   
+    margin-left: 100px; 
+    
+    
+}
+
+.brand{
+    text-align: center;
+    padding: 50px 0px;
+    background-color:#ffff;
+    
+}
+
+
+.subscribe{
+
+    background-color:#FFF1E6;
+    max-height: 400px;
+    width: 100vw;
+}
+
+
+.left img{
+    max-height: 300px;
+    height: auto;
+    
 }
 
 
 
-   
+.thank{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px;
+}
 
+.right h1{
+    color: #180223;
+    margin-bottom: 10px;
+    padding: 20px 0px;
+}
+
+.right p{
+    color: #2A0F3C;
+    margin-bottom: 10px;
+
+}
+
+.exam ,form , input{
+
+    min-width: 250px;
+    padding:10px 0px;
+    border-radius: 20px;
+    border:none;
+    
+}
+
+.exam{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.sub p{
+
+    padding-top: 15px;
+    padding-left: 10px;
+    color: white;
+    
+}
+
+.sub{
+    background-color: #FF8C42;
+    min-width:90px ;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+ input{
+    text-align: center;
+}
+
+
+.right_box,.left_box{
+
+    width: 40%;
+}
+
+
+/* This is for mobile */
+
+@media (max-width:550px){
+
+
+
+    .font h1{
+        
+        font-size: 25px;
+    }
+
+    .font p{
+
+        font-size: 12px;
+    }
+
+    .dollar h4{
+
+        font-size: 15px;
+    }
+
+
+    .view p{
+
+        font-size: 12px;
+    }
+     
+}
+
+
+/*  deleivery */
+
+
+@media (max-width:550px)
+{
+
+    .right_gift {
+         
+        padding-left: 20px;
+
+    }
+
+    .right_gift p{
+
+        font-size:16px;
+    }
+
+    .left_del{
+        padding-left: 30px;
+    }
+
+    .left_del p{
+
+        font-size: 16px;
+    }
+
+
+
+
+}
+
+
+
+/*   grid container */
+
+   
+@media (max-width:550px){
+
+
+    .grid_container{
+        min-height: 780px;
+    }
+
+    .front_end h1{
+        
+        font-size: x-large;
+    }
+
+
+    /* first box */
+
+    .box{
+        grid-template-columns: 1fr 1fr;
+        max-height: 200px;
+        gap: 30px;
+    }
+
+    .box img{
+        
+        margin-left: 40px;
+        
+    }
+
+    .box1 p{
+        padding-left: 70px;
+    }
+
+    .box1 h4{
+        padding-left: 60px;
+    }
+
+    .box1 h2{
+        padding-left: 30px;
+    }
+
+    .star{
+        padding-left: 20px;
+    }
+    .button  {
+        
+        
+        padding-left: 20px;
+        margin-bottom: 10px;
+    }
+
+
+
+    /* second box */
+
+
+    .box2 p{
+        padding-left: 40px;
+    }
+
+    .box2 h4{
+        padding-left: 50px;
+    }
+
+    .box2 h2{
+        padding-left: 30px;
+    }
+
+    .star_1{
+        padding-left: 20px;
+    }
+
+
+    /* third button  box */
+
+    .box3 p{
+
+        padding-left: 70px;
+
+    }
+
+    .box3 h4{
+
+        padding-left: 50px;
+    }
+
+    .box3 h2{
+        padding-left: 30px;
+    }
+
+    .star_2{
+        padding-left: 20px;
+    }
+
+
+    /* box 4 */
+
+
+    .box4 p{
+        padding-left:70px;
+    }
+
+
+    .box4 h2{
+        padding-left: 40px;
+    }
+
+    .box4 h4{
+        padding-left: 70px;
+    }
+
+    .star_3{
+        padding-left: 30px;
+    }
+}
+
+
+
+/* 4th hero grid */
+
+@media (max-width:550px){
+
+
+
+.nxt{
+    grid-template-columns:1fr;
+}
+
+.nxt img{
+
+    margin-left:350px;
+    margin-bottom: 10px;
+}
+
+.nxt_1  h1{
+    padding-right: 30px;
+}
+
+.nxt_2 h1{
+    padding-right: 50px;
+}
+
+.nxt_3 h1{
+    padding-right: 30px;
+}
+
+}
+
+
+@media (max-width:550px){
+
+    .new{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .new img{
+
+        margin-left: 50px;
+    }
+    
+
+}
+
+
+
+@media (max-width:550px){
+
+
+    .flower {
+        height: 150px;
+        width: 150px;
+    }
+
+    .text{
+        
+        max-width: 270px;
+    }
+    .text h1 {
+        /* overflow: hidden; */
+        font-size:14px;
+    }
+    .text p{
+
+        font-size: 10px;
+    }
+}
+
+
+@media (max-width:550px){
+
+    .brand img{
+    margin-left: 0px;
+    }
+}
+
+@media (max-width:550px){
+
+    .left{
+
+        height: 100px;
+        width: 100px;
+    }
+
+}
 
 
    
