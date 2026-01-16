@@ -756,7 +756,7 @@ padding-bottom: 10px;
 
 /* This is for mobile */
 
-@media (max-width:550px){
+@media (max-width:400px){
 
 
 
@@ -787,7 +787,7 @@ padding-bottom: 10px;
 /*  deleivery */
 
 
-@media (max-width:550px)
+@media (max-width:400px)
 {
 
     .right_gift {
@@ -820,7 +820,7 @@ padding-bottom: 10px;
 /*   grid container */
 
    
-@media (max-width:550px){
+@media (max-width:400px){
 
 
     .grid_container{
@@ -938,7 +938,7 @@ padding-bottom: 10px;
 
 /* 4th hero grid */
 
-@media (max-width:550px){
+@media screen and (max-width:400px){
 
 
 
@@ -967,7 +967,7 @@ padding-bottom: 10px;
 }
 
 
-@media (max-width:550px){
+@media screen and (max-width:400px){
 
     .new{
         grid-template-columns: 1fr 1fr;
@@ -983,7 +983,7 @@ padding-bottom: 10px;
 
 
 
-@media (max-width:550px){
+@media screen and (max-width:400px){
 
 
     .flower {
@@ -1006,14 +1006,14 @@ padding-bottom: 10px;
 }
 
 
-@media (max-width:550px){
+@media screen and (max-width:400px){
 
     .brand img{
     margin-left: 0px;
     }
 }
 
-@media (max-width:550px){
+@media screen and (max-width:400px){
 
     .left{
 
