@@ -43,8 +43,11 @@ html,body{
 
 .nav a{
     text-decoration: none;
-    color:#2A0F3C
-;
+    color:#2A0F3C;
+}
+
+.view a{
+    text-decoration: none;
 }
 
 
@@ -184,6 +187,14 @@ header{
     color: #FF8C42;
 }
 
+.right_gift p{
+    color:#180223;
+}
+
+.left_del p{
+    color: #2A0F3C;
+    font-size: small;
+}
 
 /* Grid container */
 
@@ -192,6 +203,10 @@ header{
         
     color:#4B2E5D;
     text-align: center;
+}
+
+.front_end p{
+    color: #1e0649;
 }
 
 .front_end h1{
@@ -443,6 +458,7 @@ max-height: 120px;
     font-size: small;
     font-weight: 100;
     text-align: center;
+    color: #4B2E5D;
     
 }
 
@@ -460,6 +476,7 @@ max-height: 120px;
     font-size: small;
     font-weight: 100;
     text-align: center;
+    color: #2A0F3C;
     
 }
 
@@ -470,6 +487,7 @@ max-height: 120px;
     margin: 10px 0px;
     padding-left: 40px;
     text-align: center;
+    color: #2A0F3C;
 }
 
 .nxt_3 p{
@@ -478,6 +496,7 @@ max-height: 120px;
     font-weight: 100;
     padding-left: 35px;
     text-align: center;
+    color: #180223;
 }
 
 
@@ -659,6 +678,11 @@ padding-bottom: 10px;
 
     width: fit-content;
   padding: 0 25px;
+  
+}
+
+.view_collection a{
+    text-decoration: none;
 }
 
 
@@ -737,6 +761,10 @@ padding-bottom: 10px;
     
 }
 
+.sub a{
+    text-decoration: none;
+}
+
 .sub{
     background-color: #FF8C42;
     min-width:90px ;
@@ -793,6 +821,14 @@ padding-bottom: 10px;
 margin-top: 30px;
 
     
+}
+
+.button h5, a{
+
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: 10px;
+
 }
 
 
