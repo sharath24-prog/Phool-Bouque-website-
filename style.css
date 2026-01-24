@@ -834,7 +834,7 @@ margin-top: 30px;
 
 
 
-@media  (max-width:480px) {
+@media  (max-width:500px) {
 
     .navbar .logo{
 
@@ -849,7 +849,7 @@ margin-top: 30px;
 }
 
 
-@media (max-width:480px){
+@media (max-width:500px){
 
      .bouque img{
 
@@ -860,7 +860,7 @@ margin-top: 30px;
     }
 
     .bouque{
-        padding-top: 400px;
+        padding-top: 500px;
         padding-left: 40px;
     }
 
@@ -889,7 +889,7 @@ margin-top: 30px;
 
 }
 
-@media (max-width:480px){
+@media (max-width:500px){
 
     .right_gift  p{
 
@@ -905,7 +905,7 @@ margin-top: 30px;
 
 
 
-@media (max-width:480px){
+@media (max-width:500px){
 
     .front_end h1{
           
@@ -990,7 +990,7 @@ margin-top: 30px;
 
 
 
-@media (max-width:480px){
+@media (max-width:500px){
     .nxt{
     
         grid-template-columns: 1fr;
@@ -1010,7 +1010,7 @@ margin-top: 30px;
 
 
 
-@media (max-width:480px){
+@media (max-width:500px){
     .new{
         grid-template-columns: 1fr 1fr;
     }
@@ -1021,7 +1021,7 @@ margin-top: 30px;
 }
 
 
-@media (max-width:480px){
+@media (max-width:500px){
     
    .feedback {
 
@@ -1044,7 +1044,7 @@ margin-top: 30px;
 
 
 
-@media (max-width:480px){
+@media (max-width:500px){
 
     .brand img {
 
@@ -1062,7 +1062,7 @@ margin-top: 30px;
 }
 
 
-@media (max-width:480px){
+@media (max-width:500px){
     .left img{
         
         
@@ -1077,6 +1077,94 @@ margin-top: 30px;
 
     .right {
         flex-wrap: wrap;
+    }
+}
+
+
+/* media query for phone */
+
+@media (max-width:400px){
+
+    .logo img{
+        max-height: 60px;
+        max-width: 60px;
+    }
+
+    .nav{
+        font-size:x-small;
+
+    }
+
+
+    /* deleivery */
+
+    .delivery{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+
+    .right_gift i{
+        margin-top: 10px;
+    }
+
+    
+
+    .left_del {
+    
+        margin-top: 10px;
+        padding-right: 20px;
+        margin-bottom: 40px;
+
+    }
+
+    
+
+
+    
+}
+
+
+/* media query for grid */
+
+
+@media (max-width:400px){
+    .button {
+        padding-left: 1px;
+        margin-left: 10px;
+    }
+
+    .star{
+        padding-left: 10px;
+    }
+
+    .star i{
+        font-size: small;
+    
+    }
+
+    .star_1 i{
+        font-size: small;
+    }
+
+    .star_1{
+        padding-left: 10px;
+    }
+
+    .star_2 i{
+        font-size: small;
+    }
+
+    .star_2{
+        padding-left: 10px;
+    }
+
+    .star_3 i{
+        font-size: small;
+    }
+
+    .star_3{
+        padding-left: 20px;
     }
 }
 
