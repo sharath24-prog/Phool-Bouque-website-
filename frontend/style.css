@@ -1225,8 +1225,20 @@ margin-top: 30px;
     .exam{
         flex-wrap: wrap;
     }
+
+
+    
 }
 
+@media(max-width:350px){
+    .right p {
+
+        
+        font-size: xx-small;
+        
+    }
+
+}
 
 
 
