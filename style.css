@@ -565,7 +565,7 @@ max-height: 120px;
 }
 .new_1 .pre{
     background-color: #FF8C42;
-    width: 90px;
+    max-width: 90px;
     margin: 0 auto;
     margin-top: 10px;
     border-radius: 20px;
@@ -575,7 +575,7 @@ max-height: 120px;
 .pre p{
 
     color: #ffff;
-    padding:10px 0px
+    padding:10px 0px;
     
 }
 
@@ -1143,8 +1143,8 @@ margin-top: 30px;
         padding: 0px 25px;
     }
     .button {
-        padding-left: 1px;
-        margin-left: 10px;
+        padding-right: 20px;
+        margin-right: 20px;
     }
 
     .star{
@@ -1152,7 +1152,7 @@ margin-top: 30px;
     }
 
     .star i{
-        font-size: x-smal;
+        font-size: x-small;
     
     }
 
@@ -1226,6 +1226,10 @@ margin-top: 30px;
         flex-wrap: wrap;
     }
 }
+
+
+
+
 
 
 
