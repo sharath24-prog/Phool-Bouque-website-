@@ -1013,12 +1013,21 @@ margin-top: 30px;
 @media (max-width:500px){
     .new{
         grid-template-columns: 1fr 1fr;
+        min-height: auto;
+        min-width: auto;
     }
 
     .new img{
-        margin-left: 40px;
+        margin-left: 20px;
     }
+
+    
+
+        
+    
 }
+
+
 
 
 @media (max-width:500px){
@@ -1129,6 +1138,10 @@ margin-top: 30px;
 
 
 @media (max-width:400px){
+
+    .front_end p{
+        padding: 0px 25px;
+    }
     .button {
         padding-left: 1px;
         margin-left: 10px;
@@ -1165,6 +1178,52 @@ margin-top: 30px;
 
     .star_3{
         padding-left: 20px;
+    }
+}
+
+
+@media(max-width:400px){
+    .new {
+
+        min-height: auto;
+        min-width: auto;
+    }
+}
+
+
+@media(max-width:400px){
+    .brand img{
+
+        /* flex-direction: column; */
+        /* flex-wrap: wrap;
+         */
+         max-height: 20px;
+         max-width: 20px;
+
+    }
+}
+
+
+@media(max-width:400px){
+    .left img{
+        max-height: 120px;
+        
+    }
+
+    .right{
+
+        font-size: 10px;
+        flex-wrap: wrap;
+    }
+
+    .sub p{
+        padding-left: 20px;
+        padding-bottom: 10px;
+    }
+
+
+    .exam{
+        flex-wrap: wrap;
     }
 }
 
